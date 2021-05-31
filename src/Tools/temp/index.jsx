@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {parse,parseAndCompile,showCursor} from '../../Parser/parser.js';
+import DateTime from '../../_reactComponents/PanelHeaderComponents/DateTime.jsx';
 
 // import axios from 'axios';
 
@@ -85,7 +86,7 @@ import {parse,parseAndCompile,showCursor} from '../../Parser/parser.js';
 
 
 ReactDOM.render(
-  <p>temp</p>,
+  <DateTime onDateChange={(date) => {}} />,
   document.getElementById('root'),
 );
 
